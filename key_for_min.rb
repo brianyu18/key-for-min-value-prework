@@ -13,5 +13,5 @@ def key_for_min_value(name_hash)
       answer = key
     end
   end
-answer.to_s
+answer
 end
