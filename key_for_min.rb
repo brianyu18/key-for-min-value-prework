@@ -8,9 +8,8 @@ def key_for_min_value(name_hash)
     if answer == nil
       compare = value
       answer = key
-    elsif value == {}
-      return nil
-    elsif value > result
+    else
+      if value < compare
       answer = key
     end
   end
